@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #28c16f;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav h2{
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 5rem;
+    margin-right: 30px;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul li:hover{
+    color: #1c683f;
+    transition: all 0.5s;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+main .imagem img{
+    width: 400px;
+}
+
+main .text p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .text h1{
+    color:  #1c683f;
+    font-size: 2.2rem;
+}
+
+main .botao button{
+    padding: 10px 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1c683f;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main .botao button:hover{
+    background-color: #15442b;
+    transition: all 0.5s;
+}
