@@ -67,6 +67,7 @@ main .imagem img{
     height: 45px;
     background: hsla(38, 21%, 19%, .16);
     border-radius: 50%;
+   
 }
 
 main .text p{
@@ -96,7 +97,7 @@ main .botao button:hover{
     background-color: #15442b;
     transition: all 0.5s;
 }
-
+ 
 @keyframes float {
     0%{
         transform: translatey(0);
